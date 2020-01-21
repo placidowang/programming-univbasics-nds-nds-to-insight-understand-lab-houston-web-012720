@@ -12,7 +12,7 @@ end
 def print_first_directors_movie_titles
   first_directors_movies = directors_database[0][:movies]
   
-  first_directors_movies.length.times { |i| #i = movie info
+  first_directors_movies.length.times { |i|
     movie_facts = first_directors_movies[i]
     
     puts movie_facts[:title]
